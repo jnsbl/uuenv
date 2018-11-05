@@ -1,0 +1,19 @@
+{
+  "name": "@jnsbl/uuenv",
+  "version": "0.1.0",
+  "description": "Utility for managing uu-client.properties for various environments",
+  "main": "index.js",
+  "bin": {
+    "uuenv": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jan Sibil",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "inquirer": "^6.2.0"
+  }
+}
